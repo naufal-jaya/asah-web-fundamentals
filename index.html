@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Mercedes-Benz Autoshop</title>
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron"><img src="images/Mercedes-Logo.png" alt="Mercedes Logo">
+      <h1>Mercedes-Benz</h1></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#gclass">G-Class</a>
+          </li>
+          <li>
+            <a href="#sclass">S-Class</a>
+          </li>
+          <li>
+            <a href="#eclass">E-Class</a>
+          </li>
+          <li>  
+            <a href="#start">Start Your Status</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="content">
+        <article id="gclass" class="card">
+        <img src="images/Gclass Photo.png" alt="GClass Photo">
+        <h2>G class</h2>
+        <p>The Mercedes-Benz G-Class, also called the G-Wagen, is a luxury 
+          SUV famous for its rugged, boxy design and exceptional off-road 
+          capabilities. Originally developed as a military vehicle, it has 
+          evolved into one of the most iconic high-end SUVs in the world. 
+          Despite its tough exterior, the G-Class offers a refined and 
+          luxurious interior with premium materials and cutting-edge technology, 
+          making it a favorite among celebrities and enthusiasts who value 
+          both performance and prestige.</p>
+      </article>
+      <article id="sclass" class="card">
+        <img src="images/SClass Photo.png" alt="SClass Photo">
+        <h2>S Class</h2>
+        <p>The Mercedes-Benz S-Class is the brand’s flagship luxury sedan, 
+          representing the pinnacle of innovation, comfort, and sophistication. 
+          It often debuts Mercedes’ most advanced technologies, from state-of-the-art 
+          driver assistance systems to groundbreaking safety features and luxurious 
+          interiors. The S-Class is designed for those who prioritize unmatched comfort, 
+          a smooth ride, and status, making it a popular choice for executives, world leaders, 
+          and anyone seeking the ultimate luxury driving experience.</p>
+      </article>
+      <article id="eclass" class="card">
+        <img src="images/EClass Photo.png" alt="EClass Photo">
+        <h2>E class</h2>
+        <p>The Mercedes-Benz E-Class is a mid-size executive car that strikes a balance between 
+          performance, luxury, and practicality. Known for its versatility, it comes in several 
+          body styles, including sedan, coupe, wagon, and cabriolet, catering to different 
+          lifestyles and needs. The E-Class combines elegant design, advanced technology, and 
+          reliable performance, making it one of Mercedes’ most popular models worldwide. It is 
+          often considered the “all-rounder” of the lineup, offering premium quality without 
+          reaching the exclusivity or price of the S-Class.</p>
+      </article>
+      <article id="start" class="card">
+        <h2>Start Your Status Here</h2>
+        <p>Owning a Mercedes-Benz is more than driving — it’s arriving. It’s not just a car, 
+          it’s a statement. With every curve, every detail, and every start of the engine, 
+          your status begins.</p>
+        <p>Your journey to exclusivity starts today. <br>Contact our Personal Concierge and let us help you choose the Mercedes-Benz that defines you.</p>
+      </article>
+      </div>
+      <aside>
+        <img src="images/Mercedes-Logo.png" alt="Logo Mercedes">
+        <button id="aboutBtn">About Us</button>
+        <ul id="dropdown" class="hidden">
+          <li><p>We are passionate about delivering the timeless elegance and innovation of 
+            Mercedes-Benz to our customers.</p></li>
+          <li>Find us on:</li>
+          <li><a href="https://instagram.com/dzakijatmika"><img src="images/instagram icon.png" alt="ig"></a>
+              <a href="https://instagram.com/dzakijatmika"><img src="images/youtube icon.png" alt="yt"></a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <div class="footer-content">
+      <p>&copy; 2025 Mercedes-Benz. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/dzakijatmika"><img src="images/instagram icon.png" alt="Instagram"></a>
+        <a href="https://youtube.com"><img src="images/youtube icon.png" alt="YouTube"></a>
+      </div>
+  </div>
+    </footer>
+  </body>
+  <script>
+      const aboutBtn = document.getElementById('aboutBtn');
+      const dropdown = document.getElementById('dropdown');
+
+      aboutBtn.addEventListener('click', () => {
+          dropdown.classList.toggle('hidden');});
+  </script>
+
+</html>
